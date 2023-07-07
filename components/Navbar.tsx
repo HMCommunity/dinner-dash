@@ -14,7 +14,7 @@ export default function Navbar() {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className='cursor-pointer text-lg text-white font-bold mr-10'
+            className='cursor-pointer text-lg text-black font-bold mr-10'
           >
             <Link href={`${nav.page}`}>{nav.title}</Link>
           </li>
