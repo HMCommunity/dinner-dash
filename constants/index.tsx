@@ -14,4 +14,9 @@ export const navLinks = [
     title: 'About',
     page: '#',
   },
+  {
+    id: 'login',
+    title: 'Login',
+    page: '#',
+  },
 ];
